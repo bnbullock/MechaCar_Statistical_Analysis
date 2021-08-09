@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
--A few weeks after starting his new role, Jeremy is approached by upper management about a special
+- A few weeks after starting his new role, Jeremy is approached by upper management about a special
 project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are 
 blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the
 data analytics team to review the production data for insights that may help the manufacturing team.
@@ -54,13 +54,22 @@ this design specification for all manufacturing lots in total and each lot indiv
 
 ![Image3](images/3Summarize.png)
 
-![Image2](images/4Group_Summarize.png)
+![Image4](images/4Group_Summarize.png)
 
 ## T-Tests on Suspension Coils
 - briefly summarize your interpretation and findings for the t-test results. Include screenshots 
 of the t-test to support your summary.
 - Hint : Use ?t.test() in the R console to determine what arguments are needed to test against the 
 PSI column across all manufacturing lots and for each lot.
+
+![Image5](images/5t_test.png)
+
+![Image6](images/6t_test_lot1.png)
+
+![Image7](images/7t_test_lot2.png)
+
+![Image8](images/8t_test_lot3.png)
+
 
 ## Study Design: MechaCar vs Competition
 
