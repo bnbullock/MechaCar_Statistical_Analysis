@@ -58,12 +58,11 @@ data analytics team to review the production data for insights that may help the
 
 ![Image7](images/7t_test_lot2.png)
 
-- The p-value below of 0.04168 is less than 0.05 therefore we have sufficient evidence to reject the null hypotheis, therefore the mean for Lot2/population is statistically different.
+- The p-value below of 0.04168 is less than 0.05 therefore we have sufficient evidence to reject the null hypotheis, therefore the mean for Lot3/population is statistically different.
 
 ![Image8](images/8t_test_lot3.png)
 
 - Therefore Lot3 does not meet the population mean of 1,500 PSI and we reject the null hypothesis
-
 
 ## Study Design: MechaCar vs Competition
 
@@ -89,4 +88,3 @@ safety rating.
 	- What data is needed to run the statistical test?
 	
 - Hint : Use the stat cheat sheet pdf to help with your design
-
