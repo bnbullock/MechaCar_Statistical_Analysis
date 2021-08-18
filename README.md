@@ -72,13 +72,13 @@ In our particular case, we will be looking at performing statistical analysis on
 Below is an example of such a process and the different steps:
 
   1. What are the hypotheses?
-    - H0: The performance of the MechaCar on average is no better than the competition.
-    - Ha: The performance of the MechaCar on average is better than the competition.
+       - H0: The performance of the MechaCar on average is no better than the competition.
+       - Ha: The performance of the MechaCar on average is better than the competition.
   2. Generate a list of potential independent variables correlated with the dependent variable but not with each other.
-    - metrics: Fuel Economy(mpg), Power(hp), Cost, Size, Acceleration, Reliability, Noise, Turning Radius
+       - metrics: Fuel Economy(mpg), Power(hp), Cost, Size, Acceleration, Reliability, Noise, Turning Radius
   3. Collect data for each variable identified for the MechaCar and all other cars.
   4. Test the data for normality.
-  5. Check the relationship between each independent variable and the dependent variable using scatter plots and calculating Pearson's Correlation(p-values).
+  5. Check the relationship between the coefficients using scatter plots and calculating Pearson's Correlation(p-values).
   6. Conduct simple linear regressions for each independent variable vs dependent variable.
   7. Conduct a multiple linear regression for all variables and analyse the model for overfitting and redundancy.
   8. Calculate a two-sample t-test to determine whether the null hypothesis is supported or refuted.
