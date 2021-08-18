@@ -66,25 +66,22 @@ data analytics team to review the production data for insights that may help the
 
 ## Study Design: MechaCar vs Competition
 
+To conduct a quantifiable study for evaluating whether the MechaCar performs against the competetion, a number of different steps need to be assessed in order to provide findings based on trends, patterns and relationships. To draw proper conclusions, hypotheses need to be specified, decsions need to be made regarding the sample size along with the sampling process. We can then collect the data, perform summaries and organize the characteristics of the responses in the data set. This will provide us with specific data metrics about our collected data and hopefully identify any observed relationships. We can then use the results to come to different conclusions and make predictions about the data. We then test our hypotheses by deciding whether the data supports or refutes them and whether we can make generalizations to the larger population based on the sampled data.
+
+In our particular case we will be looking at performing statistical analysis on continuous quantative numerical data. We will need to test the data to ensure normality is present before we can apply any statistical testing. We want to make sure that our sample distribution is representative or as close as possible to broader normalized population. We are then able to compare different groups and make estimates. We can plot the data and perform a visual assessment to see if the distribution is characteristic of a typical bell curve shape or we can use a Shapiro-Wilk test to test for normality. Once we confirm that the data meets a certain level of normality, we can proceed to making our null and alternate hypotheses along with identifying our level of significance. We are now in a position to perform statistical analysis on the data to produce any required metrics or observed relationships. Calculations such as
+
+Below is an example of such a process and the different steps:
   - 1. What are the hypotheses?
-  - 2. Identify the population of interest.
-  - 3. Generate a list of potential independent variables correlated with the dependent variable but not with each other.
-  - 4. Collect data for each variable identified.
-  - 5. Test the data for normality.
+  - H0: Based on the cost of the MechaCar, performance is no better than the competetion.
+  - Ha: Based on the cost of the MechaCar, performance is better than the competetion.
+  - 2. Generate a list of potential independent variables correlated with the dependent variable but not with each other.
+  - independent variables: Fuel Economy(mpg), Power(hp), Cost, Size, Acceleration, Reliability, Noise
+  - dependent variable: Cost
+  - 3. Collect data for each variable identified.
+  - 4. Test the data for normality.
   - 5. Check the relationship between each independent variable and the dependent variable using scatter plots and calculating Pearson's Correlation(p-values).
   - 6. Conduct simple linear regressions for each independent variable vs dependent variable.
   - 7. Conduct a multiple linear regression for all variables and analyse the model for overfitting and redundancy.
   - 8. T-tests to validate hypotheses.
-
-- Write a short description of a statistical study that can quantify how the MechaCar performs against the 
-competition. In your study design, think critically about what metrics would be of interest to a 
-consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or 
-safety rating.
-
-- In your description, address the following questions:
-	- What metric or metrics are you going to test?
-	- What is the null hypothesis or alternative hypothesis?
-	- What statistical test would you use to test the hypothesis? And why?
-	- What data is needed to run the statistical test?
-	
-- Hint : Use the stat cheat sheet pdf to help with your design
+  - 9. Decide whether the null hypothesis is supported or refuted
+  - 10. Present findings and/or analysis.
