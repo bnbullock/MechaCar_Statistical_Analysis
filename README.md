@@ -1,16 +1,18 @@
 # MechaCar_Statistical_Analysis
 
-Upper management for the company AUtosRUs has presented an opportunity to join a special project for their newest prototype, the MechaCar. The production of this vehicle has encountered a number of different issues which are blocking the mafufacturing team's progress. AutosRUs’ upper management has reached out to the data analytics team to review the production data for insights that may help the manufacturing team progress. As part of this initiative we have been asked to take on a few challenges list below and report back to management.
+Upper management for the company AUtosRUs has presented an opportunity to join a special project for their newest prototype, the MechaCar. The production of this vehicle has encountered a number of different issues which are blocking the manufacturing team's progress. AutosRUs upper management has reached out to the data analytics team to investigate the production data for any insights that may help the manufacturing team progress. As part of this initiative we have been asked to take on a few challenges list below and report back to management.
 
 - The data analytics team has been requested to do the following:
 
-	- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-	- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the different manufacturing lots
-	- Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-	- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+  - Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+  - Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the different manufacturing lots
+  - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+  - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 ------------------------------------------------------------------------------------------------------------
 
 ## Resources
+
 - Software: Visual Studio Code 1.56.2, Python 3.7.10, jupyter Notebook Server 6.3.0, R-Studio 1.4, R Console 4.1
 
 ------------------------------------------------------------------------------------------------------------
@@ -63,21 +65,22 @@ Upper management for the company AUtosRUs has presented an opportunity to join a
 
 ## Study Design: MechaCar vs Competition
 
-To conduct a quantifiable study for evaluating whether the MechaCar performs against the competetion, a number of different steps need to be assessed in order to provide findings based on trends, patterns and relationships. To draw proper conclusions, hypotheses need to be specified, decsions need to be made regarding the sample size along with the sampling process. We can then collect the data, perform summaries and organize the characteristics of the responses in the data set. This will provide us with specific data metrics about our collected data and hopefully identify any observed relationships. We can then use the results to come to different conclusions and make predictions about the data. We are then able to test our hypotheses by deciding whether the data is supported or not and whether we can make generalizations to the larger population based on the sampled data.
+To conduct a quantifiable study for evaluating whether the MechaCar performs against the competetion, a number of different steps need to be assessed in order to provide findings based on trends, patterns and relationships. To draw proper conclusions, hypotheses need to be specified, decisions need to be made regarding the sample size along with the sampling process. We can then collect the data, perform summaries and organize the characteristics of the responses in the data set. This will provide us with specific data metrics about our collected data and hopefully identify any observed relationships. We can then use the results to come to different conclusions and make predictions about the data. We are then able to test our hypotheses by deciding whether the data is supported or not and whether we can make generalizations to the larger population based on the sampled data.
 
 In our particular case, we will be looking at performing statistical analysis on continuous quantative numerical data. We will need to test the data to ensure normality is present before we can apply any statistical testing. We want to make sure that our sample distribution is representative or as close as possible to broader normalized population. We can plot the data and perform a visual assessment to see if the distribution is characteristic of a typical bell curve shape or we can use a Shapiro-Wilk test to test for normality. Once we confirm that the data meets a certain level of normality, we can proceed to making our null and alternate hypotheses along with identifying our level of significance. We are now in a position to perform statistical analysis on the data to produce any required metrics or observed relationships. Once we can validate that all independent variables are contributing effectively to the value of the dependent variable, we are able to validate that the model performs as required and we can proceed to hypotheses testing. Also, we need to ensure that the variance is equal between the two different groups. In our case we will use a two sample t-test to validate or refute the null hypothesis(H0). We are using this test because we have accmulated the data for the MecahCar along with aggregate data for all other cars. As such we are able to confirm whether there is a statistical difference between the distribution means from these 2 different samples. The data for this test needs to be numerical and continuous, also the two groups are sampled independently from each other using the same population. Finally we are then able to present our findings and provide analysis back to management.
 
 Below is an example of such a process and the different steps:
-  - 1. What are the hypotheses?
+
+  1. What are the hypotheses?
     - H0: The performance of the MechaCar on average is no better than the competetion.
     - Ha: The performance of the MechaCar on average is better than the competetion.
-  - 2. Generate a list of potential independent variables correlated with the dependent variable but not with each other.
+  2. Generate a list of potential independent variables correlated with the dependent variable but not with each other.
     - independent variables: Fuel Economy(mpg), Power(hp), Cost, Size, Acceleration, Reliability, Noise
     - dependent variable: Cost
-  - 3. Collect data for each variable identified for the MechaCar and all other cars.
-  - 4. Test the data for normality.
-  - 5. Check the relationship between each independent variable and the dependent variable using scatter plots and calculating Pearson's Correlation(p-values).
-  - 6. Conduct simple linear regressions for each independent variable vs dependent variable.
-  - 7. Conduct a multiple linear regression for all variables and analyse the model for overfitting and redundancy.
-  - 8. Calculate a two-sample t-test to determine whether the null hypothesis is supported or refuted.
-  - 9. Present findings and/or analysis.
+  3. Collect data for each variable identified for the MechaCar and all other cars.
+  4. Test the data for normality.
+  5. Check the relationship between each independent variable and the dependent variable using scatter plots and calculating Pearson's Correlation(p-values).
+  6. Conduct simple linear regressions for each independent variable vs dependent variable.
+  7. Conduct a multiple linear regression for all variables and analyse the model for overfitting and redundancy.
+  8. Calculate a two-sample t-test to determine whether the null hypothesis is supported or refuted.
+  9. Present findings and/or analysis.
